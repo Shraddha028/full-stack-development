@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 70px;
+            background-color: lightsalmon;
+            display: flex;
+        }
+
+        .priority {
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-left: 20px;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        
+
+        .pinkItem {
+            width: 100px;
+            height: 50px;
+            background-color: lightpink;
+        }
+
+        .pinkItem:hover {
+            border: 5px solid white;
+            box-sizing: border-box;
+        }
+
+        .greentem {
+            width: 100px;
+            height: 50px;
+            background-color: lightgreen;
+         }
+
+         .blueItem {
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+         }
+
+         .blackItem {
+            width: 100px;
+            height: 50px;
+            background-color: black;
+         }
+
+         .action {
+            display: flex;
+            background-color: gray;
+            margin-left: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 10px;
+          }
+
+        .add {
+            font-size: 40px;
+            color: white;
+            width: 50px;
+            height: 50px;
+            background-color: cyan;
+            text-align: center;
+         }
+
+         .delete {
+            font-size: 40px;
+            color: red;
+            width: 50px;
+            height: 50px;
+            background-color: cyan;
+            text-align: center;
+         }
+
+    </style>
+</head>
+
+<body>
+    <header class="container"> 
+        <div class="priority">
+            <div class="pinkItem"></div>
+            <div class="greentem"></div>
+            <div class="blueItem"></div>
+            <div class="blackItem"></div>
+        </div>
+        <div class="action">
+            <div class="add">+</div>
+            <div class="delete">x</div>
+        </div>
+
+    </header>
+
+
+    
+</body>
+</html>
